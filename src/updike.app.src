@@ -1,0 +1,17 @@
+{ application
+, updike
+, [ {description, "Run, rabbit"}
+  , {vsn, "0.0.1"}
+  , {mod, {updike, []}}
+  , {modules, []}
+  , {registered, []}
+  , { applications
+    , [ kernel
+      , stdlib
+      , crypto
+      , ssl
+      , inets
+      ]
+    }
+  ]
+}.
